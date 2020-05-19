@@ -1,13 +1,13 @@
-# CLOUD SECURITY ARCHITECTURE AND CONFIGURATION
-## Cloud Security Comprehensive List
-
-## Automated ELK Stack Deployment
-
+## CLOUD SECURITY ARCHITECTURE AND CONFIGURATION
+### Cloud Security Comprehensive List
+---
+### Automated ELK Stack Deployment
+***
 The files in this repository were used to configure the network depicted below.
 
 * **Diagrams/Week-13-CLOUD-SECURITY-NETWORK-DIAGRAM.png**
 
-These files have been tested and used to generate a live `ELK` deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **`Install-elk.yml`** file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live **`ELK`** deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **`Install-elk.yml`** file may be used to install only certain pieces of it, such as Filebeat.
 This document contains the following details:
 - Description of the Topology
 - Access Policies
@@ -51,7 +51,8 @@ A summary of the access policies in place can be found in the table below.
 | **`LOAD BALANCER`** | `yes`                 | `216.164.236.207`      |
 
 ### Elk Configuration
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because `automatic configuration drastically reduces the potential for human error` & `multiple VM’s can be configured identically all at once`. 
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because `automatic configuration drastically reduces the potential for human error` & `multiple VM’s can be configured identically all at once`.
+
 The playbook implements the following tasks:
 
 *	`Name: docker.io`: the docker engine, used for running containers. 
