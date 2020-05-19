@@ -91,6 +91,7 @@ As a **Bonus**, provide the specific commands the user will need to run to downl
 *	`Command: dpkg -i filebeat-7.6.1-amd64.deb`: installs the .deb file. 
 *	`Copy`:
     `src: /etc/ansible/files/filebeat-configuration.yml`
+    
     `dest: /etc/filebeat/filebeat.yml`: copies the filbeat-configuration file from ansible container to ELK-VM.
 *	`Command: filebeat modules enable system`: starts processing common log formats. 
 *	`Command: filebeat setup`: creates index pattern and loads the dashboards into Kibana.
