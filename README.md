@@ -1,5 +1,4 @@
 ### CLOUD SECURITY ARCHITECTURE AND CONFIGURATION
----
 ### Cloud Security Comprehensive List
 ---
 ### Automated ELK Stack Deployment
