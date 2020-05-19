@@ -68,8 +68,8 @@ The following screenshot displays the result of running docker ps after successf
 ### Target Machines & Beats 
 This ELK server is configured to monitor the following machines:
 
-*	**DVWA-VM1: 10.0.0.6** 
-* **DVWA-VM2: 10.0.0.x**
+*	`DVWA-VM1: 10.0.0.6` 
+*   `DVWA-VM2: 10.0.0.x`
 
 We have installed the following Beats on these machines:
 * **Filebeat and Metricbeat**
