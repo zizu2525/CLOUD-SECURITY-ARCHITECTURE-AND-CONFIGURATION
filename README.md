@@ -90,8 +90,10 @@ As a **Bonus**, provide the specific commands the user will need to run to downl
 *	`Command: curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.6.1-amd64.deb`: downloads the .deb file from [artifacts.elastic.co]
 *	`Command: dpkg -i filebeat-7.6.1-amd64.deb`: installs the .deb file. 
 *	`Copy`:
-...          `src: /etc/ansible/files/filebeat-configuration.yml`
-...          `dest: /etc/filebeat/filebeat.yml`: copies the filbeat-configuration file from ansible container to ELK-VM.
+
+         `src: /etc/ansible/files/filebeat-configuration.yml`
+    
+         `dest: /etc/filebeat/filebeat.yml`: copies the filbeat-configuration file from ansible container to ELK-VM.
 *	`Command: filebeat modules enable system`: starts processing common log formats. 
 *	`Command: filebeat setup`: creates index pattern and loads the dashboards into Kibana.
 *	`Command: service filebeat start`: makes filebeat ready to send files to defined output.
