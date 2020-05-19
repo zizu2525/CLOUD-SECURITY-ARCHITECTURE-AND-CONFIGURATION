@@ -15,6 +15,9 @@ This document contains the following details:
 - Machines Being Monitored
 - How to Use the Ansible Build
 
+```diff
++ this text is highlighted in green
+
 ### Description of the Topology
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 Load balancing ensures that applications will be highly **`available,`** in addition to restricting **`access`** to the network.
