@@ -49,7 +49,7 @@ A summary of the access policies in place can be found in the table below.
 | **`DVWA-VM1`**      | `No`                  | `10.0.0.5`             |
 | **`DVWA-VM2`**      | `No`                  | `10.0.0.5`             |
 | **`ELK-VM`**        | `Yes`                 | `216.164.236.207`      |
-| **`LOAD BALANCER`** | `yes`                 | `216.164.236.207`      |
+| **`LOAD BALANCER`** | `yes`                 | `0.0.0.0`      |
 
 ### Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because `automatic configuration drastically reduces the potential for human error` & `multiple VM’s can be configured identically all at once`.
