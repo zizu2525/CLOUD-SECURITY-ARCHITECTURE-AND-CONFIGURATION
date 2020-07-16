@@ -3,9 +3,10 @@
 ### Automated ELK Stack Deployment
 ***
 The files in this repository were used to configure the network depicted below.
-![](Diagrams/Week-13-CLOUD-SECURITY-NETWORK-DIAGRAM.png)
 
-These files have been tested and used to generate a live **`ELK`** deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **`Install-elk.yml`** file may be used to install only certain pieces of it, such as Filebeat.
+![](Diagrams/Week-13_-CLOUD-SECURITY-NETWORK-DIAGRAM.png)
+
+These files have been tested and used to generate a live **`ELK`** deployment on Azure. They can be also be used to recreate the entire deployment pictured above. Alternatively, select portions of the **`Install-elk.yml`** file may be used to install only certain pieces of it, such as Filebeat.
 
 This document contains the following details:
 - Description of the Topology
@@ -63,7 +64,8 @@ The playbook implements the following tasks:
 * `Published_ports`: 5601:5601 9200:9200 5044:5044: publishes ports on ELK VM.
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
-- [x] **Diagrams/docker_ps_output.png**
+
+![](Diagrams/docker_ps_output.png.png)
 
 ### Target Machines & Beats 
 This ELK server is configured to monitor the following machines:
