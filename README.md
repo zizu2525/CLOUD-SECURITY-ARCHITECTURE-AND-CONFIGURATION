@@ -4,7 +4,7 @@
 ***
 The files in this repository were used to configure the network depicted below.
 
-- [x] **Diagrams/Week-13-CLOUD-SECURITY-NETWORK-DIAGRAM.png**
+ ![](Diagrams/Week-13-CLOUD-SECURITY-NETWORK-DIAGRAM.png)
 
 These files have been tested and used to generate a live **`ELK`** deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the **`Install-elk.yml`** file may be used to install only certain pieces of it, such as Filebeat.
 
