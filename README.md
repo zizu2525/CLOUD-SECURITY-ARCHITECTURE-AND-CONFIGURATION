@@ -100,5 +100,6 @@ As a **Bonus**, provide the specific commands the user will need to run to downl
 * `Command: filebeat setup`: creates index pattern and loads the dashboards into Kibana.
 * `Command: service filebeat start`: makes filebeat ready to send files to defined output.
 
+
 ***
 **&copy;**  2020 Zewdu Gurmu, ELK Stack Cloud Network Configuration and Deployement Project.  
