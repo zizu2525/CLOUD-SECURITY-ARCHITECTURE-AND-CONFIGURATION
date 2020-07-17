@@ -102,4 +102,4 @@ As a **Bonus**, provide the specific commands the user will need to run to downl
 
 
 ***
-**&copy;**  2020 Zewdu Gurmu, ELK Stack Cloud Network Configuration and Deployement Project.  
+**&copy;** **2020 Zewdu Gurmu,** ELK Stack Cloud Network Configuration and Deployement Project.  
